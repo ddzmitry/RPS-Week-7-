@@ -1,0 +1,88 @@
+.jumbotron{
+  width: 100% ;
+  height: 650px;
+  background-image:url("../img/3122_chuck_norris.jpg");
+}
+.letterR{
+
+font-family: 'Frijole', cursive;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #F5F05D, 0px 3px 0px #777, 0px 4px 0px #F90C0C, 0px 5px 0px #FC0707, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+font-size: 100px;
+}
+.letterP {
+font-family: 'Frijole', cursive;
+text-shadow: 0px 1px 0px #F15050, 0px 2px 0px #F5F05D, 0px 3px 0px #777, 0px 4px 0px #F90C0C, 0px 5px 0px #E8CC30, 0px 6px 0px #E61919, 0px 7px 0px #333, 0px 8px 7px #001135;
+font-size: 100px;
+background: -webkit-linear-gradient(#0B0B0B,#EFE3E3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+
+}
+
+.letterS{
+
+font-family: 'Frijole', cursive;
+text-shadow: 0px 1px 0px #999, 0px 2px 0px #F5F05D, 0px 3px 0px #777, 0px 4px 0px #F90C0C, 0px 5px 0px #FC0707, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+font-size: 100px;
+}
+/*font-family: 'Frijole', cursive;
+font-family: 'Revalia', cursive;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Rye', cursive;*/
+
+
+
+
+.container{
+background: url(../img/wall.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  cursor: url(../img/22mouse.png), auto;
+}
+.targetCoursor{
+cursor: url(../img/sheriff.png), auto;
+
+}
+.bullet-hole{
+  width: 10px;
+    height: 10px;
+    background-size: cover;
+    position: absolute;
+  background-image: url(../img/bull2.png);
+}
+.inputforLogin:hover{
+
+cursor: url(../img/sheriff.png), auto;
+}
+.logingroup:hover{
+  cursor: url(../img/sheriff.png), auto;
+}
+.name-input:hover {
+cursor: url(../img/sheriff.png), auto;
+  
+}
+.player1, .player2 {
+  background: #26451d;
+   background: -webkit-gradient(linear, left top, left bottom, from(#95de59), to(#26451d));
+   background: -webkit-linear-gradient(top, #F7D67B, #E5DE20);
+   background: -moz-linear-gradient(top, #F2B91F, #E5DE20);
+   background: -ms-linear-gradient(top, #F2B91F, #E5DE20);
+   background: -o-linear-gradient(top, #F2B91F, #E5DE20);
+   opacity: .9;
+   font-family: 'Frijole', cursive;
+  
+}
+#add-user {
+   opacity: .9;
+   font-family: 'Frijole', cursive;
+
+}
+.loginform{
+
+     opacity: .9;
+   font-family: 'Frijole', cursive;
+}
+
+

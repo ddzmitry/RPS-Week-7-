@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>RPS</title>
+		<style>
+				@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Frijole|Revalia|Rye');
+		</style>
+		
+		<script src="https://www.gstatic.com/firebasejs/3.6.5/firebase.js"></script>
+		<script>
+		// Initialize Firebase
+		var config = {
+		apiKey: "AIzaSyDigZIKV8sGoaAVYSMYEvBfYjow9A942Ko",
+		authDomain: "rpsmultiplay-b5042.firebaseapp.com",
+		databaseURL: "https://rpsmultiplay-b5042.firebaseio.com",
+		storageBucket: "rpsmultiplay-b5042.appspot.com",
+		messagingSenderId: "935179988925"
+		};
+		firebase.initializeApp(config);
+		</script>
+		<!-- Bootstrap -->
+		<script
+		src="https://code.jquery.com/jquery-3.1.1.js"
+		integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+		crossorigin="anonymous"></script>
+		
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="assets/styles/animate.css">
+		<link rel="stylesheet" type="text/css" href="assets/styles/styles.css">
+
+
+	</head>
+	<body >
+		<div class="container text-center">
+			<br>
+			<!-- Jumbotron -->
+			<div class="jumbotron">
+			<div class="row col-md-offset-4">
+						<h1 class="col-sm-5 allrps"> <span class="letterR text-glow">R</span ><span class="letterP">P</span><span class="letterS">S</span></h1>
+					</div>
+
+				<div class=" h1main col-md-6 text-center"> <img class=" imgstamp col-sm-12" src="assets/img/stamp.png" height="436" width="436"></div> 
+					
+			</div>
+			<div class="row">
+				<!-- Sign-Up Panel-->
+				<div class="col-lg-4 player1">
+					<!-- <div class="panel panel-default player1inner"> -->
+						<!-- <div class="panel-heading"> -->
+							<h3 class="panel-title player1nametag ">Player 1 </h3>
+							<p class="Score1 ">Score:</p>
+						<!-- </div> -->
+						<div class="panel-body">
+							
+							<form  id = "player1rps" role="form">
+								
+								<button class="btn  char1 btn-default"  data-char = "1"        id="rock1" type="submit">Rock</button>
+								<button class="btn char1 btn-default"  data-char = "2"      id="paper1" type="submit">Paper</button>
+								<button class="btn char1 btn-default"  data-char = "3"  id="scissors1" type="submit">Scissors</button>
+							</form>
+						<!-- </div> -->
+					</div>
+				</div>
+				<div class=" loginform col-lg-4 player1Title">
+					<div class="panel panel-default">
+						<div class="panel-heading">
+							<h3 class=" chatExchange panel-title">Login</h3>
+						</div>
+						<div class=" chatWindow panel-body">
+							<!-- Sign-up Form (note the various input "types")-->
+							<form class="login" role="form">
+								<div class="form-group">
+									<!--                 <label for="name-input">Name:</label>
+									<input class="form-control" id="name-input" type="text"> -->
+									<div class="form-group logingroup">
+										<label class="textdown" for="name-input">Enter Your Name!</label>
+										<input class=" inputforLogin form-control" id="name-input" type="text">
+									</div>
+									<button class=" submit btn btn-default" id="add-user" type="submit">Submit</button>
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 player2 player2Title">
+					<!-- <div class="panel panel-default">
+						<div class="panel-heading"> -->
+							<h3 class="panel-title player2nametag">Player 2</h3>
+							<p class="Score2 ">Score:</p>
+					<!-- 	</div> -->
+						<div class="panel-body">
+							
+							<form  id = "player2rps" role="form">
+								<button class="btn  char2 btn-default" data-char = "1" id="rock2" type="submit">Rock</button>
+								<button class="btn  char2 btn-default" data-char = "2" id="paper2" type="submit">Paper</button>
+								<button class="btn  char2 btn-default"  data-char = "3" id="scissors2" type="submit">Scissors</button>
+							</form>
+						<!-- </div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<audio id="gunJumbo" src="assets/audio/gun.mp3"></audio>
+		<audio id="gunGame" src="assets/audio/gun23.mp3"></audio>
+		<audio id="reload" src="assets/audio/shelldrop.mp3"></audio>
+		<audio id="nameSon" src="assets/audio/name.mp3"></audio>
+		<audio id="partner" src="assets/audio/partner.mp3"></audio>
+		<audio id="remember" src="assets/audio/remember.mp3"></audio>
+		<!-- jQuery -->
+		<script
+		src="https://code.jquery.com/jquery-3.1.1.js"
+		integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+		crossorigin="anonymous"></script>
+		<script src='assets/js/script.js'>
+		</script>
+	</body>
+</html>
