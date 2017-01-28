@@ -480,19 +480,6 @@ $(document).ready(function() {
 
   });
 
-  // var connectedRef = firebase.database().ref(".info/connected");
-  // console.log(connectedRef)
-  // connectedRef.on("value", function(snap) {
-  //   console.log(snap)
-  //   console.log(snap.val())
-  //   if (snap.val() === true) {
-
-  //     $('.h1main').html('You are connected to RPS game!')
-
-  //   } else {
-  //     $('.h1main').html('You are not connected to RPS game!')
-  //   }
-  // });
 
 
 
